@@ -1,0 +1,65 @@
+,Unnamed: 0,Symbol,Security,GICS Sector,GICS Sub-Industry,Headquarters Location,Date first added,Founded,Trailing PE,Peg Ratio,Trailing EPS,Current Ratio,Quick Ratio,Dividend Yield
+0,1,ABT,Abbott Laboratories,Health Care,Health Care Equipment,"North Chicago, Illinois",1964-03-31,1888,31.473944,1.93,4.03,1.826,1.251,0.014199999
+1,2,ABBV,AbbVie,Health Care,Pharmaceuticals,"North Chicago, Illinois",2012-12-31,2013 (1888),27.702572,2.06,4.196,1.015,0.755,0.048499998
+2,3,ABMD,Abiomed,Health Care,Health Care Equipment,"Danvers, Massachusetts",2018-05-31,1981,104.387474,8.45,3.257,7.643,6.491,
+3,11,A,Agilent Technologies,Health Care,Health Care Equipment,"Santa Clara, California",2000-06-05,1999,51.215714,3.54,3.208,2.107,1.479,0.0050999997
+4,17,ALGN,Align Technology,Health Care,Health Care Supplies,"San Jose, California",2017-06-19,1997,73.646255,1.42,9.278,1.371,1.169,
+5,34,ABC,AmerisourceBergen,Health Care,Health Care Distributors,"Chesterbrook, Pennsylvania",2001-08-30,1985,16.308525,1.01,7.39,0.938,0.506,0.0153
+6,36,AMGN,Amgen,Health Care,Biotechnology,"Thousand Oaks, California",1992-01-02,1980,21.24317,2.11,9.701,1.643,1.192,0.0342
+7,40,ANTM,Anthem,Health Care,Managed Health Care,"Indianapolis, Indiana",2002-07-25,2014 (1946),18.679592,1.23,22.228,1.476,1.327,0.0109
+8,62,BAX,Baxter International,Health Care,Health Care Equipment,"Deerfield, Illinois",1972-09-30,1931,33.35859,1.98,2.376,2.373,1.58,0.014099999
+9,63,BDX,Becton Dickinson,Health Care,Health Care Equipment,"Franklin Lakes, New Jersey",1972-09-30,1897,36.29343,2.21,6.85,1.334,0.723,0.0139999995
+10,66,BIO,Bio-Rad Laboratories,Health Care,Life Sciences Tools & Services,"Hercules, California",2020-06-22,1952,3.522515,2.72,220.476,3.795,2.703,
+11,67,TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,"Minneapolis, Minnesota",2021-08-30,1976,115.63293,4.23,4.337,4.058,2.855,0.0026
+12,68,BIIB,Biogen,Health Care,Biotechnology,"Cambridge, Massachusetts",2003-11-13,1978,13.311389,-2.25,19.291,2.146,1.542,
+13,75,BSX,Boston Scientific,Health Care,Health Care Equipment,"Marlborough, Massachusetts[4]",1995-02-24,1979,292.2695,1.31,0.141,1.659,1.068,
+14,76,BMY,Bristol Myers Squibb,Health Care,Health Care Distributors,"New York City, New York",1957-03-04,1989,7.38,1.2,7.38,1.536,1.213,0.032
+15,86,CAH,Cardinal Health,Health Care,Health Care Distributors,"Dublin, Ohio",1997-05-27,1971,12.629289,1.41,3.906,1.124,0.453,0.0404
+16,90,CTLT,Catalent,Health Care,Pharmaceuticals,"Somerset, New Jersey",2020-09-21,2007,43.355907,2.41,2.953,2.44,1.806,
+17,96,CNC,Centene,Health Care,Managed Health Care,"St. Louis, Missouri",2016-03-30,1984,18.000957,1.13,4.187,1.12,1.056,
+18,99,CERN,Cerner,Health Care,Health Care Technology,"North Kansas City, Missouri",2010-04-30,1979,28.169985,1.98,2.612,1.647,1.375,0.0123000005
+19,101,CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,"Wilmington, Massachusetts",2021-05-14,1947,52.62222,2.63,7.364,1.364,0.934,
+20,108,CI,Cigna,Health Care,Managed Health Care,"Bloomfield, Connecticut",1976-06-30,1982,9.401728,0.78,23.267,0.7,0.58,0.0183
+21,127,COO,The Cooper Companies,Health Care,Health Care Supplies,"San Ramon, California",2016-09-23,1958,8.524718,3.37,47.496,1.387,0.609,0.0001
+22,136,CVS,CVS Health,Health Care,Health Care Services,"Woonsocket, Rhode Island",1957-03-04,1996,16.979519,1.76,5.615,0.954,0.578,0.0241
+23,138,DHR,Danaher,Health Care,Health Care Equipment,"Washington, D.C.",,1969,49.11247,2.03,6.366,2.255,1.688,0.0027
+24,140,DVA,DaVita,Health Care,Health Care Facilities,"Denver, Colorado",2008-07-31,1979,15.714949,0.84,6.469,1.625,1.508,
+25,143,XRAY,Dentsply Sirona,Health Care,Health Care Supplies,"Charlotte, North Carolina",2008-11-14,2016 (1969),68.06861,0.82,0.787,1.399,0.793,0.0067000003
+26,145,DXCM,DexCom,Health Care,Health Care Equipment,"San Diego, California",2020-05-12,1999,124.57445,13.32,5.205,5.784,5.108,
+27,168,EW,Edwards Lifesciences,Health Care,Health Care Equipment,"Irvine, California",2011-04-01,1958,86.75315,3.31,1.349,3.75,2.552,
+28,216,GILD,Gilead Sciences,Health Care,Biotechnology,"Foster City, California",2004-07-01,1987,282.45834,7.81,0.24,1.363,1.076,0.0396
+29,225,HCA,HCA Healthcare,Health Care,Health Care Facilities,"Nashville, Tennessee",2015-01-27,1968,18.177402,1.09,13.382,1.448,1.03,0.0077
+30,227,HSIC,Henry Schein,Health Care,Health Care Distributors,"Melville, New York",2015-03-17,1932,25.07983,1.11,3.069,1.7,0.726,
+31,232,HOLX,Hologic,Health Care,Health Care Equipment,"Marlborough, Massachusetts",2016-03-30,1985,10.060423,2.52,7.282,1.651,1.209,
+32,239,HUM,Humana,Health Care,Managed Health Care,"Louisville, Kentucky",,1961,15.841503,1.44,28.152,1.668,1.263,0.006
+33,243,IDXX,Idexx Laboratories,Health Care,Health Care Equipment,"Westbrook, Maine",2017-01-05,1983,81.58538,4.76,7.771,1.536,1.012,
+34,246,ILMN,Illumina,Health Care,Life Sciences Tools & Services,"San Diego, California",2015-11-19,1998,87.83177,3.4,4.28,2.682,2.045,
+35,247,INCY,Incyte,Health Care,Biotechnology,"Wilmington, Delaware",2017-02-28,1991,29.862448,1.21,2.181,3.964,3.729,
+36,256,ISRG,Intuitive Surgical,Health Care,Health Care Equipment,"Sunnyvale, California",2008-06-02,1995,36.95473,5.02,9.72,6.706,5.849,
+37,259,IQV,IQVIA,Health Care,Life Sciences Tools & Services,"Durham, North Carolina",2017-08-29,1982,126.95239,1.55,2.1,1.052,0.883,
+38,265,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,"New Brunswick, New Jersey",1973-06-30,1886,28.687511,2.04,5.661,1.389,1.038,0.0256
+39,280,LH,LabCorp,Health Care,Health Care Services,"Burlington, North Carolina",2004-11-01,1978,10.689745,-1.33,26.894,1.674,1.423,
+40,287,LLY,Eli Lilly,Health Care,Pharmaceuticals,"Indianapolis, Indiana",1970-12-31,1876,39.121258,2.23,6.68,1.417,0.828,0.015700001
+41,309,MCK,McKesson Corporation,Health Care,Health Care Distributors,"Irving, Texas",,1833,11.9596815,1.08,11.9596815,1.029,0.577,0.0088
+42,310,MDT,Medtronic,Health Care,Health Care Equipment,"Dublin, Ireland",1986-10-31,1949,44.23684,1.74,2.66,2.889,2.064,0.0194
+43,311,MRK,Merck,Health Care,Pharmaceuticals,"Kenilworth, New Jersey",1957-03-04,1891,29.992777,1.09,2.769,,,0.0345
+44,314,MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,"Columbus, Ohio",2016-09-06,1945,56.71074,2.67,27.228,1.283,0.809,
+45,320,MRNA,Moderna,Health Care,Biotechnology,"Cambridge, Massachusetts",2021-07-21,2010,168.50537,0.79,1.492,1.241,1.138,
+46,358,OGN,Organon & Co.,Health Care,Pharmaceuticals,"Jersey City, New Jersey",2021-06-03,2021,,-5.68,,1.315,0.759,0.0335
+47,370,PKI,PerkinElmer,Health Care,Health Care Equipment,"Waltham, Massachusetts",1985-05-31,1937,19.583857,0.5,9.564,2.013,1.394,0.0015
+48,371,PFE,Pfizer,Health Care,Pharmaceuticals,"New York City, New York",1957-03-04,1849,26.043566,0.92,1.974,1.483,1.011,0.0398
+49,393,DGX,Quest Diagnostics,Health Care,Health Care Services,"Secaucus, New Jersey",2002-12-12,1967,11.215478,-1.58,13.18,1.623,1.399,0.0174
+50,399,REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,"Tarrytown, New York",2013-05-01,1988,18.461342,3.05,35.128,3.573,2.923,
+51,402,RMD,ResMed,Health Care,Health Care Equipment,"San Diego, California",2017-07-26,1989,84.10355,2.04,3.129,1.673,0.904,0.0057
+52,426,STE,Steris,Health Care,Health Care Equipment,"Dublin, Ireland",2019-12-23,1985,50.539955,2.82,4.63,1.754,1.116,0.008
+53,427,SYK,Stryker Corporation,Health Care,Health Care Equipment,"Kalamazoo, Michigan",2000-12-12,1941,70.37941,2.23,3.69,2.124,1.185,0.0094
+54,439,TFX,Teleflex,Health Care,Health Care Equipment,"Wayne, Pennsylvania",2019-01-18,1943,56.006447,2.83,5.892,2.742,1.613,0.004
+55,444,TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,"Waltham, Massachusetts",2004-08-03,2006 (1902),32.085243,5.11,19.873,2.781,1.921,0.0018000001
+56,462,UNH,UnitedHealth Group,Health Care,Managed Health Care,"Minnetonka, Minnesota",1994-07-01,1977,25.555494,1.74,17.588,0.715,0.65,0.0139
+57,465,UHS,Universal Health Services,Health Care,Health Care Facilities,"King of Prussia, Pennsylvania",2014-09-20,1979,10.6707945,1.66,11.792,1.19,0.992,0.0061000003
+58,471,VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,"Cambridge, Massachusetts",2013-09-23,1989,17.673244,1.65,10.491,4.625,4.214,
+59,474,VTRS,Viatris,Health Care,Pharmaceuticals,"Pittsburgh, Pennsylvania",2004-04-23,1961,,10.4,,1.16,0.517,
+60,484,WAT,Waters Corporation,Health Care,Health Care Distributors,"Milford, Massachusetts",,1958,34.669365,4.25,9.875,2.468,1.768,
+61,488,WST,West Pharmaceutical Services,Health Care,Health Care Supplies,"Exton, Pennsylvania",2020-05-22,1923,80.704025,2.17,5.568,3.125,2.236,0.0015
+62,502,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,"Warsaw, Indiana",2001-08-07,1927,47.28173,1.7,2.726,1.829,0.841,0.0064999997
+63,504,ZTS,Zoetis,Health Care,Pharmaceuticals,"Parsippany, New Jersey",2013-06-21,1952,60.79245,3.41,3.71,4.542,3.025,0.0046

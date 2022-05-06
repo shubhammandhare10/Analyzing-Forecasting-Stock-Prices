@@ -1,0 +1,233 @@
+,Symbol,Security,GICS Sector,GICS Sub-Industry,Headquarters Location,Date first added,Founded,Trailing PE,Peg Ratio,Trailing EPS,Current Ratio,Quick Ratio,Dividend Yield
+0,ACN,Accenture,Information Technology,IT Consulting & Other Services,"Dublin, Ireland",2011-07-06,1989,40.39214,3.31,9.155,1.252,1.14,0.0105
+1,ADBE,Adobe,Information Technology,Application Software,"San Jose, California",1997-05-05,1982,56.908897,2.94,12.096,1.392,1.245,
+2,AMD,Advanced Micro Devices,Information Technology,Semiconductors,"Santa Clara, California",,1969,47.93646,1.67,3.242,2.241,1.638,
+3,AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,"Cambridge, Massachusetts",2007-07-12,1998,30.480639,1.61,3.641,3.776,3.524,
+4,APH,Amphenol,Information Technology,Electronic Components,"Wallingford, Connecticut",2008-09-30,1932,35.773106,2.43,2.38,2.399,1.216,0.0094
+5,ADI,Analog Devices,Information Technology,Semiconductors,"Wilmington, Massachusetts",1999-10-12,1965,41.31291,1.7,4.57,1.106,0.825,0.0146
+6,ANSS,Ansys,Information Technology,Application Software,"Canonsburg, Pennsylvania",2017-06-19,1969,75.69011,4.83,5.318,2.926,2.842,
+7,AAPL,Apple,Information Technology,"Technology Hardware, Storage & Peripherals","Cupertino, California",1982-11-30,1977,28.618538,1.78,5.61,1.075,0.91,0.0055
+8,AMAT,Applied Materials,Information Technology,Semiconductor Equipment,"Santa Clara, California",1995-03-16,1967,23.442186,0.74,6.4,2.539,1.641,0.0064
+9,ANET,Arista Networks,Information Technology,Communications Equipment,"Santa Clara, California",2018-08-28,2004,52.358913,2.61,2.463,5.064,4.233,
+10,ADSK,Autodesk,Information Technology,Application Software,"San Rafael, California",1989-12-01,1982,54.49814,2.45,5.918,0.501,0.415,
+11,ADP,Automatic Data Processing,Information Technology,Data Processing & Outsourced Services,"Roseland, New Jersey",1981-03-31,1949,37.643986,2.49,6.32,1.048,0.09,0.0175
+12,AVGO,Broadcom,Information Technology,Semiconductors,"San Jose, California",2014-05-08,1961,42.152386,1.37,13.492,2.405,2.052,0.0253
+13,BR,Broadridge Financial Solutions,Information Technology,Data Processing & Outsourced Services,"Lake Success, New York",2018-06-18,1962,37.40709,2.32,4.655,1.253,1.083,0.0147
+14,CDNS,Cadence Design Systems,Information Technology,Application Software,"San Jose, California",2017-09-18,1988,75.854836,3.1,2.48,1.701,1.487,
+15,CDW,CDW,Information Technology,Technology Distributors,"Lincolnshire, Illinois",2019-09-23,1984,27.551994,1.84,7.116,1.381,1.096,0.010199999
+16,CDAY,Ceridian,Information Technology,Application Software,"Minneapolis, Minnesota",2021-09-20,1992,255.2889,33.25,-0.561,1.074,0.089,
+17,CSCO,Cisco Systems,Information Technology,Communications Equipment,"San Jose, California",1993-12-01,1984,19.795538,2.4,2.69,1.618,1.408,0.0278
+18,CTXS,Citrix Systems,Information Technology,Application Software,"Fort Lauderdale, Florida",1999-12-01,1989,33.796665,2.63,2.518,0.664,0.512,0.0175
+19,CTSH,Cognizant Technology Solutions,Information Technology,IT Consulting & Other Services,"Teaneck, New Jersey",2006-11-17,1994,23.12835,1.43,3.545,2.108,1.89,0.0117999995
+20,GLW,Corning,Information Technology,Electronic Components,"Corning, New York",,1851,37.500004,0.81,1.004,1.771,0.997,0.0255
+21,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,"Tysons Corner, Virginia",2017-04-04,2017,7.2953486,0.31,1.52,1.083,0.956,
+22,ENPH,Enphase Energy,Information Technology,Electronic Components,"Fremont, California",2021-01-07,2006,232.4132,2.57,1.152,4.494,4.294,
+23,FFIV,F5,Information Technology,Communications Equipment,"Seattle, Washington",2010-12-20,1996,43.434456,1.58,5.34,1.158,1.054,
+24,FIS,Fidelity National Information Services,Information Technology,Data Processing & Outsourced Services,"Jacksonville, Florida",2006-11-10,1968,305.3889,1.03,0.36,0.793,0.411,0.014199999
+25,FISV,Fiserv,Information Technology,Data Processing & Outsourced Services,"Brookfield, Wisconsin",2001-04-02,1984,51.84456,0.96,1.93,1.049,0.212,
+26,FLT,Fleetcor,Information Technology,Data Processing & Outsourced Services,"Norcross, Georgia",2018-06-20,2000,23.505058,1.01,9.686,0.975,0.784,
+27,FTNT,Fortinet,Information Technology,Systems Software,"Sunnyvale, California",2018-10-11,2000,103.10355,5.22,3.322,1.803,1.696,
+28,IT,Gartner,Information Technology,IT Consulting & Other Services,"Stamford, Connecticut",2017-04-05,1979,41.688473,1.78,8.025,0.726,0.606,
+29,GPN,Global Payments,Information Technology,Data Processing & Outsourced Services,"Atlanta, Georgia",2016-04-25,2000,39.763184,0.76,3.167,1.151,0.646,0.007900001
+30,HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals","Houston, Texas",2015-11-02,2015,18.401535,0.45,0.782,0.954,0.632,0.0334
+31,HPQ,HP,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",1974-12-31,1939 (2015),9.852757,0.37,3.192,0.745,0.412,0.0318
+32,INTC,Intel,Information Technology,Semiconductors,"Santa Clara, California",1976-12-31,1968,9.60062,2.98,5.158,2.073,1.455,0.028099999
+33,IBM,IBM,Information Technology,IT Consulting & Other Services,"Armonk, New York",1957-03-04,1911,21.966686,0.76,5.283,0.836,0.65,0.056500003
+34,INTU,Intuit,Information Technology,Application Software,"Mountain View, California",2000-12-05,1983,91.32569,3.85,7.581,2.099,1.764,0.0039
+35,IPGP,IPG Photonics,Information Technology,Electronic Manufacturing Services,"Oxford, Massachusetts",2018-03-07,1990,33.66194,1.06,4.869,7.94,6.144,
+36,JKHY,Jack Henry & Associates,Information Technology,Data Processing & Outsourced Services,"Monett, Missouri",2018-11-13,1976,35.61367,2.85,4.302,1.142,0.785,0.012
+37,JNPR,Juniper Networks,Information Technology,Communications Equipment,"Sunnyvale, California",2006-06-02,1996,71.55556,2.03,0.45,1.671,1.291,0.0248
+38,KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,"Santa Rosa, California",2018-11-06,2014,43.96431,2.29,4.427,3.193,2.36,
+39,KLAC,KLA Corporation,Information Technology,Semiconductor Equipment,"Milpitas, California",,1975/1977 (1997),23.974344,1.2,17.618,2.435,1.658,0.0099
+40,LRCX,Lam Research,Information Technology,Semiconductor Equipment,"Fremont, California",2012-06-29,1980,21.78248,1.14,29.588,3.269,2.349,0.0093
+41,MA,Mastercard,Information Technology,Data Processing & Outsourced Services,"Harrison, New York",2008-07-18,1966,41.785976,1.61,8.13,1.331,0.917,0.0052
+42,MCHP,Microchip Technology,Information Technology,Semiconductors,"Chandler, Arizona",2007-09-07,1989,72.33596,1.03,1.143,1.916,1.106,0.0112
+43,MU,Micron Technology,Information Technology,Semiconductors,"Boise, Idaho",1994-09-27,1978,16.153696,0.4,5.14,3.099,2.171,0.0011999999
+44,MSFT,Microsoft,Information Technology,Systems Software,"Redmond, Washington",1994-06-01,1975,38.383488,2.24,8.939,2.165,1.961,0.0072000003
+45,MPWR,Monolithic Power Systems,Information Technology,Semiconductors,"Kirkland, Washington",2021-02-12,1997,127.93498,3.12,4.46,4.676,3.628,0.0042
+46,MSI,Motorola Solutions,Information Technology,Communications Equipment,"Chicago, Illinois",,1928 (2011),34.935818,1.97,7.245,1.381,1.131,0.0125
+47,NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals","Sunnyvale, California",1999-06-25,1992,22.93945,2.09,3.749,1.815,1.679,0.0233
+48,NLOK,NortonLifeLock,Information Technology,Application Software,"Tempe, Arizona",2003-03-25,1982,12.690355,1.12,1.496,0.693,0.631,0.02
+49,NVDA,Nvidia,Information Technology,Semiconductors,"Santa Clara, California",2001-11-30,1993,101.71138,1.87,3.243,7.145,6.437,0.0005
+50,NXPI,NXP,Information Technology,Semiconductors,"Eindhoven, Netherlands",2021-03-22,1953,39.61683,0.96,5.585,1.373,0.955,0.010199999
+51,ORCL,Oracle,Information Technology,Application Software,"Austin, Texas",1989-08-31,1977,19.9089,2.33,4.72,2.042,1.898,0.0136
+52,PAYX,Paychex,Information Technology,Data Processing & Outsourced Services,"Penfield, New York",,1971,37.199406,4.07,3.36,1.274,0.449,0.0211
+53,PAYC,Paycom,Information Technology,Application Software,"Oklahoma City, Oklahoma",2020-01-28,1998,159.4983,4.01,2.95,1.074,0.082,
+54,PYPL,PayPal,Information Technology,Data Processing & Outsourced Services,"San Jose, California",2015-07-20,1998,46.552055,2.13,4.159,1.298,0.337,
+55,PTC,PTC,Information Technology,Application Software,"Boston, Massachusetts",2021-04-20,1985,29.114143,1.62,4.03,,,
+56,QRVO,Qorvo,Information Technology,Semiconductors,"Greensboro, North Carolina",2015-06-11,2015,16.071873,0.93,9.656,2.816,2.05,
+57,QCOM,Qualcomm,Information Technology,Semiconductors,"San Diego, California",,1985,23.506989,0.57,7.87,1.68,1.338,0.0147
+58,CRM,Salesforce,Information Technology,Application Software,"San Francisco, California",2008-09-15,1999,120.61274,6.39,2.497,0.935,0.789,
+59,STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals","Dublin, Ireland",2012-07-02,1979,14.831493,0.57,6.795,1.27,0.794,0.0278
+60,NOW,ServiceNow,Information Technology,Systems Software,"Santa Clara, California",2019-11-21,2003,619.5875,4.38,1.091,1.131,1.004,
+61,SWKS,Skyworks Solutions,Information Technology,Semiconductors,"Woburn, Massachusetts",2015-03-12,2002,17.916388,1.12,8.97,2.522,1.686,0.0139
+62,SNPS,Synopsys,Information Technology,Application Software,"Mountain View, California",2017-03-16,1986,74.61956,3.23,4.797,1.184,1.024,
+63,TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,"Schaffhausen, Switzerland",2011-10-17,2007,24.34443,1.64,6.788,1.56,0.889,0.0121
+64,TER,Teradyne,Information Technology,Semiconductor Equipment,"North Reading, Massachusetts",2020-09-21,1960,28.493126,1.66,5.309,3.345,2.534,0.0026
+65,TXN,Texas Instruments,Information Technology,Semiconductors,"Dallas, Texas",,1930,25.059065,2.44,7.788,5.63,4.739,0.023599999
+66,TRMB,Trimble,Information Technology,Electronic Equipment & Instruments,"Sunnyvale, California",2021-01-21,1978,40.35048,3.21,2.197,1.367,0.958,
+67,TYL,Tyler Technologies,Information Technology,Application Software,"Plano, Texas",2020-06-22,1966,143.2366,7.72,3.825,1.076,1.011,
+68,VRSN,Verisign,Information Technology,Internet Services & Infrastructure,"Dulles, Virginia",2006-02-01,1995,43.639328,5.1,5.523,1.206,1.152,
+69,V,Visa,Information Technology,Data Processing & Outsourced Services,"San Francisco, California",2009-12-21,1958,42.0277,1.95,4.838,2.0,1.623,0.0057
+70,WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals","San Jose, California",2009-07-01,1970,48.731407,0.13,1.143,2.007,1.031,
+71,WU,Western Union,Information Technology,Data Processing & Outsourced Services,"Englewood, Colorado",2006-09-29,1851,9.309393,1.14,1.81,0.538,0.186,0.052699998
+72,XLNX,Xilinx,Information Technology,Semiconductors,"San Jose, California",1999-11-08,1984,84.18703,4.88,2.62,5.576,5.069,
+73,ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,"Lincolnshire, Illinois",2019-12-23,1969,50.87252,3.34,11.931,0.985,0.612,
+0,AFL,Aflac,Financials,Life & Health Insurance,"Columbus, Georgia",1999-05-28,1955,7.1841664,1.64,7.781,0.626,0.477,0.0241
+1,ALL,Allstate Corp,Financials,Property & Casualty Insurance,"Northfield Township, Illinois",1995-07-13,1931,9.94721,-10.47,11.366,0.726,0.17,0.023699999
+2,AXP,American Express,Financials,Consumer Finance,"New York City, New York",1976-06-30,1850,28.882153,0.45,6.101,1.578,1.559,0.0105
+3,AIG,American International Group,Financials,Property & Casualty Insurance,"New York City, New York",1980-03-31,1919,11.0039215,0.36,-4.44,0.734,0.212,0.0215
+4,AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,"Minneapolis, Minnesota",2005-10-03,1894,13.438388,1.34,-0.532,2.549,1.79,0.0166
+5,AON,Aon,Financials,Insurance Brokers,"London, UK",1996-04-23,1982 (1919),32.324303,1.75,9.121,1.07,0.226,0.0068
+6,AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,"Rolling Meadows, Illinois",2016-05-31,1927,37.3932,2.6,4.354,1.326,1.008,0.0117
+7,AIZ,Assurant,Financials,Multi-line Insurance,"New York City, New York",2007-04-10,1892,13.145202,1.0,7.176,0.696,0.128,0.0161
+8,BAC,Bank of America,Financials,Diversified Banks,"Charlotte, North Carolina",1976-06-30,1998 (1923 / 1874),19.87983,0.52,2.33,,,0.0179
+9,BRK.B,Berkshire Hathaway,Financials,Multi-Sector Holdings,"Omaha, Nebraska",2010-02-16,1839,0.0042429115,1.02,66140.91,1.57,1.414,
+10,BLK,BlackRock,Financials,Asset Management & Custody Banks,"New York City, New York",2011-04-04,1988,26.740757,1.49,34.508,1.379,0.522,0.0182
+11,BK,BNY Mellon,Financials,Asset Management & Custody Banks,"New York City, New York",1995-03-31,1784,15.409442,1.17,3.749,,,0.0229
+12,BRO,Brown & Brown,Financials,Insurance Brokers,"Daytona Beach, Florida",2021-09-20,1939,34.689022,2.13,1.849,1.246,0.834,0.0069
+13,COF,Capital One,Financials,Consumer Finance,"Tysons Corner, Virginia",1998-07-01,1994,10.000654,0.14,15.298,,,0.0145000005
+14,CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,"Chicago, Illinois",2017-03-01,1973,28.432491,9.1,4.555,1.36,0.588,0.0155
+15,SCHW,Charles Schwab,Financials,Investment Banking & Brokerage,"Westlake, Texas",1997-06-02,1971,35.254528,1.09,2.318,0.371,0.369,0.0095999995
+16,CB,Chubb,Financials,Property & Casualty Insurance,"Zurich, Switzerland",2010-07-15,1985,15.583793,0.56,12.316,0.355,0.168,0.0173
+17,CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,"Fairfield, Ohio",1997-12-18,1950,6.295746,1.55,18.854,1.225,0.956,0.0217
+18,C,Citigroup,Financials,Diversified Banks,"New York City, New York",1988-05-31,1998,9.207025,0.25,7.289,,,0.029000001
+19,CFG,Citizens Financial Group,Financials,Regional Banks,"Providence, Rhode Island",2016-01-29,1828,14.076362,-3.08,3.562,,,0.0355
+20,CME,CME Group,Financials,Financial Exchanges & Data,"Chicago, Illinois",2006-08-11,1848,42.439026,5.92,5.33,1.02,0.012,0.0165
+21,CMA,Comerica,Financials,Diversified Banks,"Dallas, Texas",1995-12-01,1849,14.545603,-0.87,6.14,,,0.0375
+22,DFS,Discover Financial Services,Financials,Consumer Finance,"Riverwoods, Illinois",2007-07-02,1985,12.988869,0.13,8.893,1.256,1.255,0.0171
+23,RE,Everest Re,Financials,Reinsurance,"Hamilton, Bermuda",2017-06-19,1973,13.099728,0.1,20.947,1.599,1.033,0.024500001
+24,FITB,Fifth Third Bancorp,Financials,Regional Banks,"Cincinnati, Ohio",,1858,16.216019,-3.6,2.722,,,0.0273
+25,FRC,First Republic Bank,Financials,Regional Banks,"San Francisco, California",2019-01-02,1985,34.214306,1.66,6.402,,,0.0044
+26,BEN,Franklin Resources,Financials,Asset Management & Custody Banks,"San Mateo, California",,1947,22.349165,0.92,1.558,3.822,1.863,0.036
+27,GL,Globe Life,Financials,Life & Health Insurance,"McKinney, Texas",1989-04-30,1900,13.638361,1.74,6.83,0.361,0.259,0.0084
+28,GS,Goldman Sachs,Financials,Investment Banking & Brokerage,"New York City, New York",2002-07-22,1869,9.721546,0.37,40.258,1.657,1.557,0.020399999
+29,HIG,The Hartford,Financials,Property & Casualty Insurance,"Hartford, Connecticut",1957-03-04,1810,15.038395,1.23,4.688,2.06,1.132,0.021300001
+30,HBAN,Huntington Bancshares,Financials,Regional Banks,"Columbus, Ohio; Detroit, Michigan",,1866,14.15937,-6.21,1.142,,,0.0375
+31,ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,"Atlanta, Georgia",2007-09-26,2000,36.156517,2.79,3.744,1.006,0.024,0.0097
+32,IVZ,Invesco,Financials,Asset Management & Custody Banks,"Atlanta, Georgia",2008-08-21,1935,16.049706,0.37,1.529,6.796,1.071,0.0278
+33,JPM,JPMorgan Chase,Financials,Diversified Banks,"New York City, New York",1975-06-30,2000 (1799 / 1871),12.9332905,1.39,12.607,,,0.0228
+34,KEY,KeyCorp,Financials,Regional Banks,"Cleveland, Ohio",1994-03-01,1825,13.388009,0.73,1.768,,,0.0312
+35,LNC,Lincoln National,Financials,Multi-line Insurance,"Radnor, Pennsylvania",1976-06-30,1905,20.484797,0.16,3.486,1.97,0.398,0.0241
+36,L,Loews Corporation,Financials,Multi-line Insurance,"New York City, New York",,1959,19.548275,,-0.143,0.488,0.488,0.0045
+37,MTB,M&T Bank,Financials,Regional Banks,"Buffalo, New York",2004-02-23,1856,14.055722,0.83,11.342,,,0.028800001
+38,MKTX,MarketAxess,Financials,Financial Exchanges & Data,"New York City, New York",2019-07-01,2000,45.85375,9.95,8.0,9.511,7.983,0.0054
+39,MMC,Marsh & McLennan,Financials,Insurance Brokers,"New York City, New York",1987-08-31,1905,38.285713,2.11,4.375,1.183,1.1,0.0128
+40,MET,MetLife,Financials,Life & Health Insurance,"New York City, New York",,1868,11.031691,1.02,5.68,1.025,0.802,0.0309
+41,MCO,Moody's,Financials,Financial Exchanges & Data,"New York City, New York",,1909,36.864502,2.95,10.716,2.309,2.124,0.0069
+42,MS,Morgan Stanley,Financials,Investment Banking & Brokerage,"New York City, New York",,1935,12.7769785,2.37,7.645,,,0.0275
+43,MSCI,MSCI,Financials,Financial Exchanges & Data,"New York City, New York",2018-04-04,1969,85.89518,3.73,7.747,1.817,1.752,0.0056
+44,NDAQ,Nasdaq,Financials,Financial Exchanges & Data,"New York City, New York",2008-10-22,1971,33.93496,1.88,6.15,1.025,0.208,0.011
+45,NTRS,Northern Trust,Financials,Asset Management & Custody Banks,"Chicago, Illinois",,1889,21.643785,1.11,5.609,,,0.0254
+46,PBCT,People's United Financial,Financials,Thrifts & Mortgage Finance,"Bridgeport, Connecticut",2008-11-13,1842,35.667313,0.82,0.517,,,0.044899996
+47,PNC,PNC Financial Services,Financials,Regional Banks,"Pittsburgh, Pennsylvania",1988-04-30,1845,10.502902,-3.63,19.129,,,0.024400001
+48,PFG,Principal Financial Group,Financials,Life & Health Insurance,"Des Moines, Iowa",2002-07-22,1879,12.112245,0.65,5.88,2.354,2.076,0.0372
+49,PGR,Progressive Corporation,Financials,Property & Casualty Insurance,"Mayfield Village, Ohio",1997-08-04,1937,8.248773,-2.18,10.998,0.369,0.247,0.0044
+50,PRU,Prudential Financial,Financials,Life & Health Insurance,"Newark, New Jersey",2002-07-22,1875,16.235697,0.75,6.729,0.959,0.16,0.0414
+51,RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,"St. Petersburg, Florida",2017-03-20,1962,13.074663,0.72,7.487,2.951,2.934,0.0121
+52,RF,Regions Financial Corporation,Financials,Regional Banks,"Birmingham, Alabama",1998-08-28,1971,15.713346,0.19,1.521,,,0.028800001
+53,SPGI,S&P Global,Financials,Financial Exchanges & Data,"New York City, New York",,1917,45.67139,3.66,10.158,2.091,2.001,0.0068
+54,STT,State Street Corporation,Financials,Asset Management & Custody Banks,"Boston, Massachusetts",,1792,15.690279,0.83,6.07,,,0.026300002
+55,SIVB,SVB Financial,Financials,Regional Banks,"Santa Clara, California",2018-03-19,1983,24.519302,2.32,30.383,,,
+56,SYF,Synchrony Financial,Financials,Consumer Finance,"Stamford, Connecticut",2015-11-18,2003,13.589094,0.2,3.558,,,0.0176
+57,TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,"Baltimore, Maryland",,1937,17.830334,1.09,11.776,1.897,1.897,0.020499999
+58,TRV,The Travelers Companies,Financials,Property & Casualty Insurance,"New York City, New York",2002-08-21,1853,14.105043,1.6,11.062,0.381,0.205,0.0224
+59,TFC,Truist Financial,Financials,Regional Banks,"Charlotte, North Carolina",1997-12-04,1872,,1.23,,,,0.0348
+60,USB,U.S. Bancorp,Financials,Diversified Banks,"Minneapolis, Minnesota",,1968,15.479018,0.93,3.789,,,0.0295
+61,WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,"Greenwich, Connecticut",2019-12-05,1967,20.137728,1.91,4.066,0.449,0.272,0.0073
+62,WFC,Wells Fargo,Financials,Diversified Banks,"San Francisco, California",1976-06-30,1852,34.27198,0.09,1.456,,,0.0172
+63,WLTW,Willis Towers Watson,Financials,Insurance Brokers,"London, England",2016-01-05,2016,20.88117,2.31,10.94,1.097,0.245,0.0123000005
+64,ZION,Zions Bancorp,Financials,Regional Banks,"Salt Lake City, Utah",2001-06-22,1873,13.462086,-0.27,4.919,,,0.0239
+0,ABT,Abbott Laboratories,Health Care,Health Care Equipment,"North Chicago, Illinois",1964-03-31,1888,31.473944,1.93,4.03,1.826,1.251,0.014199999
+1,ABBV,AbbVie,Health Care,Pharmaceuticals,"North Chicago, Illinois",2012-12-31,2013 (1888),27.702572,2.06,4.196,1.015,0.755,0.048499998
+2,ABMD,Abiomed,Health Care,Health Care Equipment,"Danvers, Massachusetts",2018-05-31,1981,104.387474,8.45,3.257,7.643,6.491,
+3,A,Agilent Technologies,Health Care,Health Care Equipment,"Santa Clara, California",2000-06-05,1999,51.215714,3.54,3.208,2.107,1.479,0.0050999997
+4,ALGN,Align Technology,Health Care,Health Care Supplies,"San Jose, California",2017-06-19,1997,73.646255,1.42,9.278,1.371,1.169,
+5,ABC,AmerisourceBergen,Health Care,Health Care Distributors,"Chesterbrook, Pennsylvania",2001-08-30,1985,16.308525,1.01,7.39,0.938,0.506,0.0153
+6,AMGN,Amgen,Health Care,Biotechnology,"Thousand Oaks, California",1992-01-02,1980,21.24317,2.11,9.701,1.643,1.192,0.0342
+7,ANTM,Anthem,Health Care,Managed Health Care,"Indianapolis, Indiana",2002-07-25,2014 (1946),18.679592,1.23,22.228,1.476,1.327,0.0109
+8,BAX,Baxter International,Health Care,Health Care Equipment,"Deerfield, Illinois",1972-09-30,1931,33.35859,1.98,2.376,2.373,1.58,0.014099999
+9,BDX,Becton Dickinson,Health Care,Health Care Equipment,"Franklin Lakes, New Jersey",1972-09-30,1897,36.29343,2.21,6.85,1.334,0.723,0.0139999995
+10,BIO,Bio-Rad Laboratories,Health Care,Life Sciences Tools & Services,"Hercules, California",2020-06-22,1952,3.522515,2.72,220.476,3.795,2.703,
+11,TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,"Minneapolis, Minnesota",2021-08-30,1976,115.63293,4.23,4.337,4.058,2.855,0.0026
+12,BIIB,Biogen,Health Care,Biotechnology,"Cambridge, Massachusetts",2003-11-13,1978,13.311389,-2.25,19.291,2.146,1.542,
+13,BSX,Boston Scientific,Health Care,Health Care Equipment,"Marlborough, Massachusetts[4]",1995-02-24,1979,292.2695,1.31,0.141,1.659,1.068,
+14,BMY,Bristol Myers Squibb,Health Care,Health Care Distributors,"New York City, New York",1957-03-04,1989,7.38,1.2,7.38,1.536,1.213,0.032
+15,CAH,Cardinal Health,Health Care,Health Care Distributors,"Dublin, Ohio",1997-05-27,1971,12.629289,1.41,3.906,1.124,0.453,0.0404
+16,CTLT,Catalent,Health Care,Pharmaceuticals,"Somerset, New Jersey",2020-09-21,2007,43.355907,2.41,2.953,2.44,1.806,
+17,CNC,Centene,Health Care,Managed Health Care,"St. Louis, Missouri",2016-03-30,1984,18.000957,1.13,4.187,1.12,1.056,
+18,CERN,Cerner,Health Care,Health Care Technology,"North Kansas City, Missouri",2010-04-30,1979,28.169985,1.98,2.612,1.647,1.375,0.0123000005
+19,CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,"Wilmington, Massachusetts",2021-05-14,1947,52.62222,2.63,7.364,1.364,0.934,
+20,CI,Cigna,Health Care,Managed Health Care,"Bloomfield, Connecticut",1976-06-30,1982,9.401728,0.78,23.267,0.7,0.58,0.0183
+21,COO,The Cooper Companies,Health Care,Health Care Supplies,"San Ramon, California",2016-09-23,1958,8.524718,3.37,47.496,1.387,0.609,0.0001
+22,CVS,CVS Health,Health Care,Health Care Services,"Woonsocket, Rhode Island",1957-03-04,1996,16.979519,1.76,5.615,0.954,0.578,0.0241
+23,DHR,Danaher,Health Care,Health Care Equipment,"Washington, D.C.",,1969,49.11247,2.03,6.366,2.255,1.688,0.0027
+24,DVA,DaVita,Health Care,Health Care Facilities,"Denver, Colorado",2008-07-31,1979,15.714949,0.84,6.469,1.625,1.508,
+25,XRAY,Dentsply Sirona,Health Care,Health Care Supplies,"Charlotte, North Carolina",2008-11-14,2016 (1969),68.06861,0.82,0.787,1.399,0.793,0.0067000003
+26,DXCM,DexCom,Health Care,Health Care Equipment,"San Diego, California",2020-05-12,1999,124.57445,13.32,5.205,5.784,5.108,
+27,EW,Edwards Lifesciences,Health Care,Health Care Equipment,"Irvine, California",2011-04-01,1958,86.75315,3.31,1.349,3.75,2.552,
+28,GILD,Gilead Sciences,Health Care,Biotechnology,"Foster City, California",2004-07-01,1987,282.45834,7.81,0.24,1.363,1.076,0.0396
+29,HCA,HCA Healthcare,Health Care,Health Care Facilities,"Nashville, Tennessee",2015-01-27,1968,18.177402,1.09,13.382,1.448,1.03,0.0077
+30,HSIC,Henry Schein,Health Care,Health Care Distributors,"Melville, New York",2015-03-17,1932,25.07983,1.11,3.069,1.7,0.726,
+31,HOLX,Hologic,Health Care,Health Care Equipment,"Marlborough, Massachusetts",2016-03-30,1985,10.060423,2.52,7.282,1.651,1.209,
+32,HUM,Humana,Health Care,Managed Health Care,"Louisville, Kentucky",,1961,15.841503,1.44,28.152,1.668,1.263,0.006
+33,IDXX,Idexx Laboratories,Health Care,Health Care Equipment,"Westbrook, Maine",2017-01-05,1983,81.58538,4.76,7.771,1.536,1.012,
+34,ILMN,Illumina,Health Care,Life Sciences Tools & Services,"San Diego, California",2015-11-19,1998,87.83177,3.4,4.28,2.682,2.045,
+35,INCY,Incyte,Health Care,Biotechnology,"Wilmington, Delaware",2017-02-28,1991,29.862448,1.21,2.181,3.964,3.729,
+36,ISRG,Intuitive Surgical,Health Care,Health Care Equipment,"Sunnyvale, California",2008-06-02,1995,36.95473,5.02,9.72,6.706,5.849,
+37,IQV,IQVIA,Health Care,Life Sciences Tools & Services,"Durham, North Carolina",2017-08-29,1982,126.95239,1.55,2.1,1.052,0.883,
+38,JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,"New Brunswick, New Jersey",1973-06-30,1886,28.687511,2.04,5.661,1.389,1.038,0.0256
+39,LH,LabCorp,Health Care,Health Care Services,"Burlington, North Carolina",2004-11-01,1978,10.689745,-1.33,26.894,1.674,1.423,
+40,LLY,Eli Lilly,Health Care,Pharmaceuticals,"Indianapolis, Indiana",1970-12-31,1876,39.121258,2.23,6.68,1.417,0.828,0.015700001
+41,MCK,McKesson Corporation,Health Care,Health Care Distributors,"Irving, Texas",,1833,11.9596815,1.08,11.9596815,1.029,0.577,0.0088
+42,MDT,Medtronic,Health Care,Health Care Equipment,"Dublin, Ireland",1986-10-31,1949,44.23684,1.74,2.66,2.889,2.064,0.0194
+43,MRK,Merck,Health Care,Pharmaceuticals,"Kenilworth, New Jersey",1957-03-04,1891,29.992777,1.09,2.769,,,0.0345
+44,MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,"Columbus, Ohio",2016-09-06,1945,56.71074,2.67,27.228,1.283,0.809,
+45,MRNA,Moderna,Health Care,Biotechnology,"Cambridge, Massachusetts",2021-07-21,2010,168.50537,0.79,1.492,1.241,1.138,
+46,OGN,Organon & Co.,Health Care,Pharmaceuticals,"Jersey City, New Jersey",2021-06-03,2021,,-5.68,,1.315,0.759,0.0335
+47,PKI,PerkinElmer,Health Care,Health Care Equipment,"Waltham, Massachusetts",1985-05-31,1937,19.583857,0.5,9.564,2.013,1.394,0.0015
+48,PFE,Pfizer,Health Care,Pharmaceuticals,"New York City, New York",1957-03-04,1849,26.043566,0.92,1.974,1.483,1.011,0.0398
+49,DGX,Quest Diagnostics,Health Care,Health Care Services,"Secaucus, New Jersey",2002-12-12,1967,11.215478,-1.58,13.18,1.623,1.399,0.0174
+50,REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,"Tarrytown, New York",2013-05-01,1988,18.461342,3.05,35.128,3.573,2.923,
+51,RMD,ResMed,Health Care,Health Care Equipment,"San Diego, California",2017-07-26,1989,84.10355,2.04,3.129,1.673,0.904,0.0057
+52,STE,Steris,Health Care,Health Care Equipment,"Dublin, Ireland",2019-12-23,1985,50.539955,2.82,4.63,1.754,1.116,0.008
+53,SYK,Stryker Corporation,Health Care,Health Care Equipment,"Kalamazoo, Michigan",2000-12-12,1941,70.37941,2.23,3.69,2.124,1.185,0.0094
+54,TFX,Teleflex,Health Care,Health Care Equipment,"Wayne, Pennsylvania",2019-01-18,1943,56.006447,2.83,5.892,2.742,1.613,0.004
+55,TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,"Waltham, Massachusetts",2004-08-03,2006 (1902),32.085243,5.11,19.873,2.781,1.921,0.0018000001
+56,UNH,UnitedHealth Group,Health Care,Managed Health Care,"Minnetonka, Minnesota",1994-07-01,1977,25.555494,1.74,17.588,0.715,0.65,0.0139
+57,UHS,Universal Health Services,Health Care,Health Care Facilities,"King of Prussia, Pennsylvania",2014-09-20,1979,10.6707945,1.66,11.792,1.19,0.992,0.0061000003
+58,VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,"Cambridge, Massachusetts",2013-09-23,1989,17.673244,1.65,10.491,4.625,4.214,
+59,VTRS,Viatris,Health Care,Pharmaceuticals,"Pittsburgh, Pennsylvania",2004-04-23,1961,,10.4,,1.16,0.517,
+60,WAT,Waters Corporation,Health Care,Health Care Distributors,"Milford, Massachusetts",,1958,34.669365,4.25,9.875,2.468,1.768,
+61,WST,West Pharmaceutical Services,Health Care,Health Care Supplies,"Exton, Pennsylvania",2020-05-22,1923,80.704025,2.17,5.568,3.125,2.236,0.0015
+62,ZBH,Zimmer Biomet,Health Care,Health Care Equipment,"Warsaw, Indiana",2001-08-07,1927,47.28173,1.7,2.726,1.829,0.841,0.0064999997
+63,ZTS,Zoetis,Health Care,Pharmaceuticals,"Parsippany, New Jersey",2013-06-21,1952,60.79245,3.41,3.71,4.542,3.025,0.0046
+0,ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,"Pasadena, California",2017-03-20,1994,35.970722,527.9,6.514,1.988,1.654,0.0219
+1,AMT,American Tower,Real Estate,Specialized REITs,"Boston, Massachusetts",2007-11-19,1995,47.390594,2.57,5.507,0.773,0.668,0.0201
+2,AVB,AvalonBay Communities,Real Estate,Residential REITs,"Arlington, Virginia[3]",2007-01-10,1978,33.449894,17.56,7.235,1.045,0.483,0.026300002
+3,BXP,Boston Properties,Real Estate,Office REITs,"Boston, Massachusetts",2006-04-03,1970,57.211353,6.76,2.044,4.317,3.851,0.0335
+4,CBRE,CBRE,Real Estate,Real Estate Services,"Dallas, Texas",2006-11-10,1906,23.237762,1.71,4.29,1.355,1.039,
+5,CCI,Crown Castle,Real Estate,Specialized REITs,"Houston, Texas",2012-03-14,1994,63.998608,3.94,2.871,0.67,0.491,0.032
+6,DLR,Digital Realty Trust,Real Estate,Specialized REITs,"Austin, Texas",2016-05-18,2004,69.83551,2.56,2.371,0.766,0.76,0.027999999
+7,DRE,Duke Realty Corp,Real Estate,Industrial REITs,"Indianapolis, Indiana",2017-07-26,1972,24.092773,6.67,2.436,2.701,0.951,0.0191
+8,EQIX,Equinix,Real Estate,Specialized REITs,"Redwood City, California",2015-03-20,1998,166.25133,3.87,4.743,1.628,1.219,0.0146
+9,EQR,Equity Residential,Real Estate,Residential REITs,"Chicago, Illinois",2001-12-03,1969,30.478216,6.71,2.823,0.529,0.144,0.027999999
+10,ESS,Essex Property Trust,Real Estate,Residential REITs,"San Mateo, California",2014-04-02,1971,50.5706,7.26,6.87,0.782,0.2,0.0241
+11,EXR,Extra Space Storage,Real Estate,Specialized REITs,"Salt Lake City, Utah",2016-01-19,1977,37.548294,6.4,5.384,1.7,0.419,0.0247
+12,FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,"Rockville, Maryland",2016-02-01,1962,42.75199,9.14,3.016,1.29,0.751,0.0332
+13,PEAK,Healthpeak Properties,Real Estate,Health Care REITs,"Long Beach, California",2008-03-31,1985,,26.92,,0.925,0.172,0.0353
+14,HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,"Bethesda, Maryland",2007-03-20,1993,96.16666,-1.35,-1.257,26.789,26.763,
+15,IRM,Iron Mountain,Real Estate,Specialized REITs,"Boston, Massachusetts",2009-01-06,1951,39.873844,5.14,1.189,0.695,0.573,0.0525
+16,KIM,Kimco Realty,Real Estate,Retail REITs,"New Hyde Park, New York",2006-04-04,1958,10.19475,6.49,2.362,80.168,80.168,0.0313
+17,MAA,Mid-America Apartments,Real Estate,Residential REITs,"Memphis, Tennessee",2016-12-02,1977,89.25634,8.25,2.286,0.092,0.037,0.0214
+18,PLD,Prologis,Real Estate,Industrial REITs,"San Francisco, California",2003-07-17,1983,82.96419,-10.08,1.815,0.983,0.444,0.0189
+19,PSA,Public Storage,Real Estate,Specialized REITs,"Glendale, California",2005-08-19,1972,50.05962,2.37,6.709,2.075,2.02,0.0247
+20,O,Realty Income Corporation,Real Estate,Retail REITs,"San Diego, California",2015-04-07,1969,73.540375,8.95,0.966,0.937,0.801,0.0421
+21,REG,Regency Centers,Real Estate,Retail REITs,"Jacksonville, Florida",2017-03-02,1963,85.245155,4.16,0.877,1.281,1.198,0.0343
+22,SBAC,SBA Communications,Real Estate,Specialized REITs,"Boca Raton, Florida",2017-09-01,1989,279.54654,0.66,1.235,0.77,0.628,0.0064999997
+23,SPG,Simon Property Group,Real Estate,Retail REITs,"Indianapolis, Indiana",2002-06-26,2003,47.658978,2.82,3.554,0.394,0.368,0.04
+24,UDR,UDR,Real Estate,Residential REITs,"Highlands Ranch, Colorado",2016-03-07,1972,289.23468,-12.47,0.196,0.089,0.004,0.0255
+25,VTR,Ventas,Real Estate,Health Care REITs,"Chicago, Illinois",2009-03-04,1998,888.1667,-52.0,-0.244,0.543,0.371,0.0325
+26,VNO,Vornado Realty Trust,Real Estate,Office REITs,"New York City, New York",,1982,92.448975,6.1,-1.839,7.062,6.403,0.045500003
+27,WELL,Welltower,Real Estate,Health Care REITs,"Toledo, Ohio",2009-01-30,1970,49.172375,11.07,1.752,1.694,1.067,0.028499998
+28,WY,Weyerhaeuser,Real Estate,Specialized REITs,"Seattle, Washington",,1900,21.350592,2.12,1.777,2.848,2.11,0.0197

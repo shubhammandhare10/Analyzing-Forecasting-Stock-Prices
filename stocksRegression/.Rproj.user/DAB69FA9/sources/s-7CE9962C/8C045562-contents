@@ -1,0 +1,796 @@
+############### Author:Shubham Mandhare ########################
+############### Date  :19th Nov  ########################
+###### Prediction using ARIMA  #######
+
+#######################################
+###### ARIMA data from R #######
+install.packages("quantmod")
+install.packages("tseries")
+install.packages("timeSeries")
+install.packages("forecast")
+install.packages("xts")
+
+library(quantmod)
+library(tseries)
+library(timeSeries)
+library(forecast)
+library(xts)
+
+##################### getting tickers ###########################
+rm(list=ls())
+financials = read.csv("/Users/shubhammandhare/Desktop/Shubh/Stocks Project/Dataset/Financials.csv")
+informationTechnology = read.csv("/Users/shubhammandhare/Desktop/Shubh/Stocks Project/Dataset/InformationTechnology.csv")
+healthCare = read.csv("/Users/shubhammandhare/Desktop/Shubh/Stocks Project/Dataset/HealthCare.csv")
+realEstate = read.csv("/Users/shubhammandhare/Desktop/Shubh/Stocks Project/Dataset/RealEstate.csv")
+
+# iterations = 65
+# variables = 1
+# 
+# output1 <- matrix(ncol=variables, nrow=iterations)
+# 
+# for(i in 1:iterations){
+#   output1[i,] <- as.Date(first.date) 
+# }
+# 
+# as.Date(output1)
+# chrDates <- as.character(financials$Date.first.added)
+# dates <- as.Date(chrDates, "%Y-%m-%d")
+# financials$dates <- dates
+# 
+# financials = financials[!(as.Date(financials$dates)) > as.Date(output1)]
+
+head(financials)
+fin.symbols <- financials[,3] 
+it.symbols <- informationTechnology[,2]
+hc.symbols <- healthCare[,3]
+re.symbols <- realEstate[,3]
+
+#get random 10% of the stocks from each sector
+set.seed(7897)
+fin.symbols.random = sample(fin.symbols, floor(length(fin.symbols)*0.1))
+fin.symbols.random = replace(fin.symbols.random,5,"BAC")
+it.symbols.random = sample(it.symbols, floor(length(it.symbols)*0.1))
+hc.symbols.random = sample(hc.symbols, floor(length(hc.symbols)*0.1))
+re.symbols.random = sample(re.symbols, floor(length(re.symbols)*0.1))
+
+
+#combine the tickers to use 
+inUseSymbols = c()
+inUseSymbols = fin.symbols.random
+inUseSymbols = append(inUseSymbols, it.symbols.random)
+inUseSymbols = append(inUseSymbols, hc.symbols.random)
+inUseSymbols = append(inUseSymbols, re.symbols.random)
+
+tickers <- inUseSymbols
+print(tickers)
+
+#close_prices = c()
+# iterations = length((tickers))
+# variables = 2
+# 
+# output <- matrix(ncol=variables, nrow=iterations)
+
+# for(i in 1:iterations){
+#   output[i,1] <- getSymbols(tickers[i],
+#                            from = first.date,
+#                            to = last.date)
+#   output[i,2] 
+# }
+
+##### Get the data for respective tickers
+no_of_years = 10
+first.date <- as.Date("2011-11-28") 
+last.date <- as.Date("2021-11-22")
+class(first.date)
+
+
+stock_data = getSymbols(tickers, from = first.date, to = last.date)
+class(stock_data)
+# stockSymbol = as.list(stock_data)
+stockSymbol = c("USB","RJF","AFL","LNC","BAC","TFC","XLNX","ADI", "WU","NXPI","AAPL", "FFIV", "IT", 
+                "BIO","HUM","HSIC","UHS","IDXX","CVS" ,"BXP","DLR")
+print(tickers)
+
+#Take the column for closing price for stocks 
+
+USB_prices = USB[,4]
+RJF_prices = RJF[,4]
+AFL_prices = AFL[,4]
+LNC_prices = LNC[,4]
+SYF_prices = BAC[,4]
+TFC_prices = TFC[,4]
+XLNX_prices = XLNX[,4]
+ADI_prices = ADI[,4]
+WU_prices = WU[,4]
+NXPI_prices = NXPI[,4]
+AAPL_prices = AAPL[,4]
+FFIV_prices = FFIV[,4]
+IT_prices = IT[,4]
+BIO_prices = BIO[,4]
+HUM_prices = HUM[,4]
+HSIC_prices = HSIC[,4]
+UHS_prices = UHS[,4]
+IDXX_prices = IDXX[,4]
+CVS_prices = CVS[,4]
+BXP_prices = BXP[,4]
+DLR_prices = DLR[,4]
+
+#merge all data
+allStockPrices = merge(USB_prices,RJF_prices,AFL_prices,LNC_prices,SYF_prices,TFC_prices,XLNX_prices,ADI_prices, 
+                       WU_prices,NXPI_prices,AAPL_prices,FFIV_prices,IT_prices,BIO_prices,HUM_prices,
+                       HSIC_prices,UHS_prices, IDXX_prices,CVS_prices,BXP_prices,DLR_prices)
+
+#save as csv file
+##########write.csv(x=as.data.frame(allStockPrices), file="allStockPrices.csv")
+
+#Plot Graphs
+# chart_Series(USB)
+# chart_Series(RJF)
+# chart_Series(AFL)
+# chart_Series(LNC)
+# chart_Series(BAC)
+# chart_Series(TFC)
+# chart_Series(XLNX)
+# chart_Series(ADI)
+# chart_Series(WU)
+# chart_Series(NXPI)
+# chart_Series(AAPL)
+# chart_Series(FFIV)
+# chart_Series(IT)
+# chart_Series(BIO)
+# chart_Series(HUM)
+# chart_Series(HSIC)
+# chart_Series(UHS)
+# chart_Series(IDXX)
+# chart_Series(CVS)
+# chart_Series(BXP)
+# chart_Series(DLR)
+
+par(mfrow=c(1,1))
+############################################################
+
+#Split data
+#install.packages("MLmetrics")
+library(MLmetrics)
+
+
+
+############################################################
+#ARIMA MODELS
+# create a dataframe 
+rmsError = c()
+mapError =c()
+p = c()
+d = c()
+q = c()
+term = 57
+
+#USB STOCK
+fitA <- auto.arima(USB_prices, seasonal = TRUE)
+class(fitA)
+train = window(USB_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(USB_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: USB  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/USB.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+########
+
+
+#RJF STOCK
+fitA <- auto.arima(RJF_prices, seasonal = TRUE)
+class(fitA)
+train = window(RJF_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(RJF_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: RJF  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/RJF.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+
+#AFL STOCK
+fitA <- auto.arima(AFL_prices, seasonal = FALSE)
+class(fitA)
+train = window(AFL_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(AFL_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: AFL  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/AFL.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+
+############################################################
+#LNC STOCK
+fitA <- auto.arima(LNC_prices, seasonal = FALSE)
+class(fitA)
+train = window(LNC_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(LNC_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: LNC  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/LNC.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+#SYF STOCK
+fitA <- auto.arima(SYF_prices, seasonal = FALSE)
+class(fitA)
+train = window(SYF_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(SYF_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: BAC  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/BAC.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+#TFC STOCK
+fitA <- auto.arima(TFC_prices, seasonal = FALSE)
+class(fitA)
+train = window(TFC_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(TFC_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: TFC  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/TFC.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+#XLNX STOCK
+fitA <- auto.arima(XLNX_prices, seasonal = FALSE)
+class(fitA)
+train = window(XLNX_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(XLNX_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: XLNX  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/XLNX.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#ADI STOCK
+fitA <- auto.arima(ADI_prices, seasonal = FALSE)
+class(fitA)
+train = window(ADI_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(ADI_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: ADI  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/ADI.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#WU STOCK
+fitA <- auto.arima(WU_prices, seasonal = FALSE)
+class(fitA)
+train = window(WU_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(WU_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: WU  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/WU.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#NXPI STOCK
+fitA <- auto.arima(NXPI_prices, seasonal = FALSE)
+class(fitA)
+train = window(NXPI_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(NXPI_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: NXPI  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/NXPI.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#AAPL STOCK
+fitA <- auto.arima(AAPL_prices, seasonal = FALSE)
+class(fitA)
+train = window(AAPL_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(AAPL_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: AAPL  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/AAPL.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#FFIV STOCK
+fitA <- auto.arima(FFIV_prices, seasonal = FALSE)
+class(fitA)
+train = window(FFIV_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(FFIV_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: FFIV  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/FFIV.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#IT STOCK
+fitA <- auto.arima(IT_prices, seasonal = FALSE)
+class(fitA)
+train = window(IT_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(IT_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: IT  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/IT.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#BIO STOCK
+fitA <- auto.arima(BIO_prices, seasonal = FALSE)
+class(fitA)
+train = window(BIO_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(BIO_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: BIO  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/BIO.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#HUM STOCK
+fitA <- auto.arima(HUM_prices, seasonal = FALSE)
+class(fitA)
+train = window(HUM_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(HUM_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: HUM  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/HUM.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#HSIC STOCK
+fitA <- auto.arima(HSIC_prices, seasonal = FALSE)
+class(fitA)
+train = window(HSIC_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(HSIC_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: HSIC  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/HSIC.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#UHS STOCK
+fitA <- auto.arima(UHS_prices, seasonal = FALSE)
+class(fitA)
+train = window(UHS_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(UHS_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: UHS  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/UHS.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#IDXX STOCK
+fitA <- auto.arima(IDXX_prices, seasonal = FALSE)
+class(fitA)
+train = window(IDXX_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(IDXX_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: IDXX  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/IDXX.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#CVS STOCK
+fitA <- auto.arima(CVS_prices, seasonal = TRUE)
+class(fitA)
+train = window(CVS_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(CVS_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: CVS  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/CVS.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+
+############################################################
+############################################################
+#BXP STOCK
+fitA <- auto.arima(BXP_prices, seasonal = FALSE)
+class(fitA)
+train = window(BXP_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(BXP_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: BXP  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/BXP.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+############################################################
+#DLR STOCK
+fitA <- auto.arima(DLR_prices, seasonal = FALSE)
+class(fitA)
+train = window(DLR_prices, start = "2011-11-28", end = "2021-08-31")
+test = window(DLR_prices, start = "2021-09-01", end = "2021-11-22")
+test = as.numeric(test)
+pdq = arimaorder(fitA)
+name = "Stock: DLR  ARIMA:"
+p1 = pdq[1]
+p = append(p,p1)
+d1 = pdq[2]
+d = append(d,d1)
+q1 = pdq[3]
+q = append(q,q1)
+title = paste(name,p1,d1,q1)
+pred <- forecast(fitA, h=term)
+y_pred = as.numeric(unlist(pred[4]))
+MAPE(y_pred,test)
+mapError = append(mapError, MAPE(y_pred,test))
+acc = accuracy(pred) #98.65
+rmsError = append(rmsError,acc[2])
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/ArimaModelPlots/DLR.png")
+plot(pred,main=title,xlab="Days",ylab="Stock Price")
+dev.off()
+############################################################
+p
+d
+q
+rmsError
+################
+###create a main dataframe with all values for stocks
+percentRMSE = c(rmsError)
+percentMAPE = c(mapError)*100
+main.data_pdq_acc <- data.frame(stockSymbol,p,d,q,percentRMSE,percentMAPE)
+write.csv(x=as.data.frame(main.data_pdq_acc), file="results.csv")
+
+##############################################################################
+# barplot(t(as.matrix(main.data_pdq_acc[,5:6])), names.arg=c("USB","RJF","AFL","LNC","BAC","TFC","XLNX","ADI", "WU","NXPI","AAPL", "FFIV", "IT", 
+#                     "BIO","HUM","HSIC","UHS","IDXX","CVS" ,"BXP","DLR"),beside=TRUE)
+
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/Accuracy Plot/accuracy.png")
+
+bp <- barplot(t(as.matrix(main.data_pdq_acc[,5:6])), names.arg=c("USB","RJF","AFL","LNC","BAC","TFC","XLNX","ADI", "WU","NXPI","AAPL", "FFIV", "IT", 
+                                                                 "BIO","HUM","HSIC","UHS","IDXX","CVS" ,"BXP","DLR"),beside=TRUE,
+              main = "Accuracy of the Model", 
+              col = c("darkblue","lightblue"),
+              xlab = "Stocks",
+              ylab = "Value", legend = c("RMSE", "Percent MAPE"), 
+              args.legend = list(title = "Accuracy Measures", x = "topright", cex = .7), ylim = c(0, 90),
+              cex.names = 0.7
+)
+text(bp,cex=1) 
+dev.off()
+
+##############################################################################
+##############################################################################
+##############################################################################
+##################   Covariance and Correlation     ##########################
+##############################################################################
+rm(list = ls())
+# install.packages("BatchGetSymbols")
+# install.packages("plotly")
+# install.packages("ggcorrplot")
+# install.packages("corrplot")
+
+#Read stock data
+library(caret)
+library(BatchGetSymbols)
+library(zoo)
+library(plotly)
+library(ggcorrplot)
+library(corrplot)
+
+rm(list=ls())
+data <- read.csv("/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/allStockPrices.csv")
+data
+
+#select a subset of data without dates column
+df = subset(data, select = -c(X) )
+colnames(df) <- c("USB","RJF","AFL","LNC","BAC","TFC","XLNX","ADI", "WU","NXPI","AAPL", "FFIV", "IT", 
+                  "BIO","HUM","HSIC","UHS","IDXX","CVS" ,"BXP","DLR")
+
+#preprocess data 
+df_processed = preProcess(as.data.frame(df), method=c("range"))
+
+#normalize data using min-max scaling
+df_norm_scale <- data.frame(predict(df_processed, as.data.frame(df))) 
+
+#save normalized values as csv
+write.csv(x=as.data.frame(df_norm_scale), file="normalizedStockValues.csv")
+
+#using covariance and correlation functions BEFORE normalization
+covarianceBeforeNorm = cov(df)
+write.csv(x=as.data.frame(covarianceBeforeNorm), file="covarianceBeforeNorm.csv")
+
+correlationBeforeNorm = cor(df)
+write.csv(x=as.data.frame(correlationBeforeNorm), file="correlationBeforeNorm.csv")
+
+#using covariance and correlation functions AFTER normalization
+covarianceAfterNorm = cov(df_norm_scale)
+write.csv(x=as.data.frame(covarianceAfterNorm), file="covarianceAfterNorm.csv")
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/CovarianceCorrelationPlots/covarianceAfterNorm.png")
+corrplot(covarianceAfterNorm,method = 'color')
+dev.off()
+
+correlationAfterNorm = cor(df_norm_scale)
+write.csv(x=as.data.frame(correlationAfterNorm), file="correlationAfterNorm.csv")
+png(filename="/Users/shubhammandhare/Desktop/Shubh/540/540_Rproject/CovarianceCorrelationPlots/correlationAfterNorm.png")
+corrplot(correlationAfterNorm, method="circle" ,diag = FALSE)
+dev.off()

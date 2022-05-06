@@ -1,0 +1,75 @@
+,Symbol,Security,GICS Sector,GICS Sub-Industry,Headquarters Location,Date first added,Founded,Trailing PE,Peg Ratio,Trailing EPS,Current Ratio,Quick Ratio,Dividend Yield
+4,ACN,Accenture,Information Technology,IT Consulting & Other Services,"Dublin, Ireland",2011-07-06,1989,40.39214,3.31,9.155,1.252,1.14,0.0105
+6,ADBE,Adobe,Information Technology,Application Software,"San Jose, California",1997-05-05,1982,56.908897,2.94,12.096,1.392,1.245,
+7,AMD,Advanced Micro Devices,Information Technology,Semiconductors,"Santa Clara, California",,1969,47.93646,1.67,3.242,2.241,1.638,
+13,AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,"Cambridge, Massachusetts",2007-07-12,1998,30.480639,1.61,3.641,3.776,3.524,
+37,APH,Amphenol,Information Technology,Electronic Components,"Wallingford, Connecticut",2008-09-30,1932,35.773106,2.43,2.38,2.399,1.216,0.0094
+38,ADI,Analog Devices,Information Technology,Semiconductors,"Wilmington, Massachusetts",1999-10-12,1965,41.31291,1.7,4.57,1.106,0.825,0.0146
+39,ANSS,Ansys,Information Technology,Application Software,"Canonsburg, Pennsylvania",2017-06-19,1969,75.69011,4.83,5.318,2.926,2.842,
+44,AAPL,Apple,Information Technology,"Technology Hardware, Storage & Peripherals","Cupertino, California",1982-11-30,1977,28.618538,1.78,5.61,1.075,0.91,0.0055
+45,AMAT,Applied Materials,Information Technology,Semiconductor Equipment,"Santa Clara, California",1995-03-16,1967,23.442186,0.74,6.4,2.539,1.641,0.0064
+48,ANET,Arista Networks,Information Technology,Communications Equipment,"Santa Clara, California",2018-08-28,2004,52.358913,2.61,2.463,5.064,4.233,
+53,ADSK,Autodesk,Information Technology,Application Software,"San Rafael, California",1989-12-01,1982,54.49814,2.45,5.918,0.501,0.415,
+54,ADP,Automatic Data Processing,Information Technology,Data Processing & Outsourced Services,"Roseland, New Jersey",1981-03-31,1949,37.643986,2.49,6.32,1.048,0.09,0.0175
+77,AVGO,Broadcom,Information Technology,Semiconductors,"San Jose, California",2014-05-08,1961,42.152386,1.37,13.492,2.405,2.052,0.0253
+78,BR,Broadridge Financial Solutions,Information Technology,Data Processing & Outsourced Services,"Lake Success, New York",2018-06-18,1962,37.40709,2.32,4.655,1.253,1.083,0.0147
+82,CDNS,Cadence Design Systems,Information Technology,Application Software,"San Jose, California",2017-09-18,1988,75.854836,3.1,2.48,1.701,1.487,
+94,CDW,CDW,Information Technology,Technology Distributors,"Lincolnshire, Illinois",2019-09-23,1984,27.551994,1.84,7.116,1.381,1.096,0.010199999
+98,CDAY,Ceridian,Information Technology,Application Software,"Minneapolis, Minnesota",2021-09-20,1992,255.2889,33.25,-0.561,1.074,0.089,
+111,CSCO,Cisco Systems,Information Technology,Communications Equipment,"San Jose, California",1993-12-01,1984,19.795538,2.4,2.69,1.618,1.408,0.0278
+114,CTXS,Citrix Systems,Information Technology,Application Software,"Fort Lauderdale, Florida",1999-12-01,1989,33.796665,2.63,2.518,0.664,0.512,0.0175
+119,CTSH,Cognizant Technology Solutions,Information Technology,IT Consulting & Other Services,"Teaneck, New Jersey",2006-11-17,1994,23.12835,1.43,3.545,2.108,1.89,0.0117999995
+129,GLW,Corning,Information Technology,Electronic Components,"Corning, New York",,1851,37.500004,0.81,1.004,1.771,0.997,0.0255
+162,DXC,DXC Technology,Information Technology,IT Consulting & Other Services,"Tysons Corner, Virginia",2017-04-04,2017,7.2953486,0.31,1.52,1.083,0.956,
+171,ENPH,Enphase Energy,Information Technology,Electronic Components,"Fremont, California",2021-01-07,2006,232.4132,2.57,1.152,4.494,4.294,
+188,FFIV,F5,Information Technology,Communications Equipment,"Seattle, Washington",2010-12-20,1996,43.434456,1.58,5.34,1.158,1.054,
+192,FIS,Fidelity National Information Services,Information Technology,Data Processing & Outsourced Services,"Jacksonville, Florida",2006-11-10,1968,305.3889,1.03,0.36,0.793,0.411,0.014199999
+196,FISV,Fiserv,Information Technology,Data Processing & Outsourced Services,"Brookfield, Wisconsin",2001-04-02,1984,51.84456,0.96,1.93,1.049,0.212,
+197,FLT,Fleetcor,Information Technology,Data Processing & Outsourced Services,"Norcross, Georgia",2018-06-20,2000,23.505058,1.01,9.686,0.975,0.784,
+200,FTNT,Fortinet,Information Technology,Systems Software,"Sunnyvale, California",2018-10-11,2000,103.10355,5.22,3.322,1.803,1.696,
+209,IT,Gartner,Information Technology,IT Consulting & Other Services,"Stamford, Connecticut",2017-04-05,1979,41.688473,1.78,8.025,0.726,0.606,
+218,GPN,Global Payments,Information Technology,Data Processing & Outsourced Services,"Atlanta, Georgia",2016-04-25,2000,39.763184,0.76,3.167,1.151,0.646,0.007900001
+230,HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals","Houston, Texas",2015-11-02,2015,18.401535,0.45,0.782,0.954,0.632,0.0334
+238,HPQ,HP,Information Technology,"Technology Hardware, Storage & Peripherals","Palo Alto, California",1974-12-31,1939 (2015),9.852757,0.37,3.192,0.745,0.412,0.0318
+249,INTC,Intel,Information Technology,Semiconductors,"Santa Clara, California",1976-12-31,1968,9.60062,2.98,5.158,2.073,1.455,0.028099999
+251,IBM,IBM,Information Technology,IT Consulting & Other Services,"Armonk, New York",1957-03-04,1911,21.966686,0.76,5.283,0.836,0.65,0.056500003
+255,INTU,Intuit,Information Technology,Application Software,"Mountain View, California",2000-12-05,1983,91.32569,3.85,7.581,2.099,1.764,0.0039
+258,IPGP,IPG Photonics,Information Technology,Electronic Manufacturing Services,"Oxford, Massachusetts",2018-03-07,1990,33.66194,1.06,4.869,7.94,6.144,
+261,JKHY,Jack Henry & Associates,Information Technology,Data Processing & Outsourced Services,"Monett, Missouri",2018-11-13,1976,35.61367,2.85,4.302,1.142,0.785,0.012
+268,JNPR,Juniper Networks,Information Technology,Communications Equipment,"Sunnyvale, California",2006-06-02,1996,71.55556,2.03,0.45,1.671,1.291,0.0248
+272,KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,"Santa Rosa, California",2018-11-06,2014,43.96431,2.29,4.427,3.193,2.36,
+276,KLAC,KLA Corporation,Information Technology,Semiconductor Equipment,"Milpitas, California",,1975/1977 (1997),23.974344,1.2,17.618,2.435,1.658,0.0099
+281,LRCX,Lam Research,Information Technology,Semiconductor Equipment,"Fremont, California",2012-06-29,1980,21.78248,1.14,29.588,3.269,2.349,0.0093
+305,MA,Mastercard,Information Technology,Data Processing & Outsourced Services,"Harrison, New York",2008-07-18,1966,41.785976,1.61,8.13,1.331,0.917,0.0052
+316,MCHP,Microchip Technology,Information Technology,Semiconductors,"Chandler, Arizona",2007-09-07,1989,72.33596,1.03,1.143,1.916,1.106,0.0112
+317,MU,Micron Technology,Information Technology,Semiconductors,"Boise, Idaho",1994-09-27,1978,16.153696,0.4,5.14,3.099,2.171,0.0011999999
+318,MSFT,Microsoft,Information Technology,Systems Software,"Redmond, Washington",1994-06-01,1975,38.383488,2.24,8.939,2.165,1.961,0.0072000003
+324,MPWR,Monolithic Power Systems,Information Technology,Semiconductors,"Kirkland, Washington",2021-02-12,1997,127.93498,3.12,4.46,4.676,3.628,0.0042
+329,MSI,Motorola Solutions,Information Technology,Communications Equipment,"Chicago, Illinois",,1928 (2011),34.935818,1.97,7.245,1.381,1.131,0.0125
+332,NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals","Sunnyvale, California",1999-06-25,1992,22.93945,2.09,3.749,1.815,1.679,0.0233
+345,NLOK,NortonLifeLock,Information Technology,Application Software,"Tempe, Arizona",2003-03-25,1982,12.690355,1.12,1.496,0.693,0.631,0.02
+349,NVDA,Nvidia,Information Technology,Semiconductors,"Santa Clara, California",2001-11-30,1993,101.71138,1.87,3.243,7.145,6.437,0.0005
+351,NXPI,NXP,Information Technology,Semiconductors,"Eindhoven, Netherlands",2021-03-22,1953,39.61683,0.96,5.585,1.373,0.955,0.010199999
+357,ORCL,Oracle,Information Technology,Application Software,"Austin, Texas",1989-08-31,1977,19.9089,2.33,4.72,2.042,1.898,0.0136
+363,PAYX,Paychex,Information Technology,Data Processing & Outsourced Services,"Penfield, New York",,1971,37.199406,4.07,3.36,1.274,0.449,0.0211
+364,PAYC,Paycom,Information Technology,Application Software,"Oklahoma City, Oklahoma",2020-01-28,1998,159.4983,4.01,2.95,1.074,0.082,
+365,PYPL,PayPal,Information Technology,Data Processing & Outsourced Services,"San Jose, California",2015-07-20,1998,46.552055,2.13,4.159,1.298,0.337,
+385,PTC,PTC,Information Technology,Application Software,"Boston, Massachusetts",2021-04-20,1985,29.114143,1.62,4.03,,,
+390,QRVO,Qorvo,Information Technology,Semiconductors,"Greensboro, North Carolina",2015-06-11,2015,16.071873,0.93,9.656,2.816,2.05,
+392,QCOM,Qualcomm,Information Technology,Semiconductors,"San Diego, California",,1985,23.506989,0.57,7.87,1.68,1.338,0.0147
+410,CRM,Salesforce,Information Technology,Application Software,"San Francisco, California",2008-09-15,1999,120.61274,6.39,2.497,0.935,0.789,
+413,STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals","Dublin, Ireland",2012-07-02,1979,14.831493,0.57,6.795,1.27,0.794,0.0278
+416,NOW,ServiceNow,Information Technology,Systems Software,"Santa Clara, California",2019-11-21,2003,619.5875,4.38,1.091,1.131,1.004,
+419,SWKS,Skyworks Solutions,Information Technology,Semiconductors,"Woburn, Massachusetts",2015-03-12,2002,17.916388,1.12,8.97,2.522,1.686,0.0139
+430,SNPS,Synopsys,Information Technology,Application Software,"Mountain View, California",2017-03-16,1986,74.61956,3.23,4.797,1.184,1.024,
+437,TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,"Schaffhausen, Switzerland",2011-10-17,2007,24.34443,1.64,6.788,1.56,0.889,0.0121
+440,TER,Teradyne,Information Technology,Semiconductor Equipment,"North Reading, Massachusetts",2020-09-21,1960,28.493126,1.66,5.309,3.345,2.534,0.0026
+442,TXN,Texas Instruments,Information Technology,Semiconductors,"Dallas, Texas",,1930,25.059065,2.44,7.788,5.63,4.739,0.023599999
+450,TRMB,Trimble,Information Technology,Electronic Equipment & Instruments,"Sunnyvale, California",2021-01-21,1978,40.35048,3.21,2.197,1.367,0.958,
+453,TYL,Tyler Technologies,Information Technology,Application Software,"Plano, Texas",2020-06-22,1966,143.2366,7.72,3.825,1.076,1.011,
+468,VRSN,Verisign,Information Technology,Internet Services & Infrastructure,"Dulles, Virginia",2006-02-01,1995,43.639328,5.1,5.523,1.206,1.152,
+475,V,Visa,Information Technology,Data Processing & Outsourced Services,"San Francisco, California",2009-12-21,1958,42.0277,1.95,4.838,2.0,1.623,0.0057
+489,WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals","San Jose, California",2009-07-01,1970,48.731407,0.13,1.143,2.007,1.031,
+490,WU,Western Union,Information Technology,Data Processing & Outsourced Services,"Englewood, Colorado",2006-09-29,1851,9.309393,1.14,1.81,0.538,0.186,0.052699998
+498,XLNX,Xilinx,Information Technology,Semiconductors,"San Jose, California",1999-11-08,1984,84.18703,4.88,2.62,5.576,5.069,
+501,ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,"Lincolnshire, Illinois",2019-12-23,1969,50.87252,3.34,11.931,0.985,0.612,

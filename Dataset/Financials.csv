@@ -1,0 +1,66 @@
+,Unnamed: 0,Symbol,Security,GICS Sector,GICS Sub-Industry,Headquarters Location,Date first added,Founded,Trailing PE,Peg Ratio,Trailing EPS,Current Ratio,Quick Ratio,Dividend Yield
+0,10,AFL,Aflac,Financials,Life & Health Insurance,"Columbus, Georgia",1999-05-28,1955,7.1841664,1.64,7.781,0.626,0.477,0.0241
+1,20,ALL,Allstate Corp,Financials,Property & Casualty Insurance,"Northfield Township, Illinois",1995-07-13,1931,9.94721,-10.47,11.366,0.726,0.17,0.023699999
+2,29,AXP,American Express,Financials,Consumer Finance,"New York City, New York",1976-06-30,1850,28.882153,0.45,6.101,1.578,1.559,0.0105
+3,30,AIG,American International Group,Financials,Property & Casualty Insurance,"New York City, New York",1980-03-31,1919,11.0039215,0.36,-4.44,0.734,0.212,0.0215
+4,33,AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,"Minneapolis, Minnesota",2005-10-03,1894,13.438388,1.34,-0.532,2.549,1.79,0.0166
+5,41,AON,Aon,Financials,Insurance Brokers,"London, UK",1996-04-23,1982 (1919),32.324303,1.75,9.121,1.07,0.226,0.0068
+6,49,AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,"Rolling Meadows, Illinois",2016-05-31,1927,37.3932,2.6,4.354,1.326,1.008,0.0117
+7,50,AIZ,Assurant,Financials,Multi-line Insurance,"New York City, New York",2007-04-10,1892,13.145202,1.0,7.176,0.696,0.128,0.0161
+8,60,BAC,Bank of America,Financials,Diversified Banks,"Charlotte, North Carolina",1976-06-30,1998 (1923 / 1874),19.87983,0.52,2.33,,,0.0179
+9,64,BRK.B,Berkshire Hathaway,Financials,Multi-Sector Holdings,"Omaha, Nebraska",2010-02-16,1839,0.0042429115,1.02,66140.91,1.57,1.414,
+10,69,BLK,BlackRock,Financials,Asset Management & Custody Banks,"New York City, New York",2011-04-04,1988,26.740757,1.49,34.508,1.379,0.522,0.0182
+11,70,BK,BNY Mellon,Financials,Asset Management & Custody Banks,"New York City, New York",1995-03-31,1784,15.409442,1.17,3.749,,,0.0229
+12,79,BRO,Brown & Brown,Financials,Insurance Brokers,"Daytona Beach, Florida",2021-09-20,1939,34.689022,2.13,1.849,1.246,0.834,0.0069
+13,85,COF,Capital One,Financials,Consumer Finance,"Tysons Corner, Virginia",1998-07-01,1994,10.000654,0.14,15.298,,,0.0145000005
+14,92,CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,"Chicago, Illinois",2017-03-01,1973,28.432491,9.1,4.555,1.36,0.588,0.0155
+15,102,SCHW,Charles Schwab,Financials,Investment Banking & Brokerage,"Westlake, Texas",1997-06-02,1971,35.254528,1.09,2.318,0.371,0.369,0.0095999995
+16,106,CB,Chubb,Financials,Property & Casualty Insurance,"Zurich, Switzerland",2010-07-15,1985,15.583793,0.56,12.316,0.355,0.168,0.0173
+17,109,CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,"Fairfield, Ohio",1997-12-18,1950,6.295746,1.55,18.854,1.225,0.956,0.0217
+18,112,C,Citigroup,Financials,Diversified Banks,"New York City, New York",1988-05-31,1998,9.207025,0.25,7.289,,,0.029000001
+19,113,CFG,Citizens Financial Group,Financials,Regional Banks,"Providence, Rhode Island",2016-01-29,1828,14.076362,-3.08,3.562,,,0.0355
+20,116,CME,CME Group,Financials,Financial Exchanges & Data,"Chicago, Illinois",2006-08-11,1848,42.439026,5.92,5.33,1.02,0.012,0.0165
+21,122,CMA,Comerica,Financials,Diversified Banks,"Dallas, Texas",1995-12-01,1849,14.545603,-0.87,6.14,,,0.0375
+22,148,DFS,Discover Financial Services,Financials,Consumer Finance,"Riverwoods, Illinois",2007-07-02,1985,12.988869,0.13,8.893,1.256,1.255,0.0171
+23,182,RE,Everest Re,Financials,Reinsurance,"Hamilton, Bermuda",2017-06-19,1973,13.099728,0.1,20.947,1.599,1.033,0.024500001
+24,193,FITB,Fifth Third Bancorp,Financials,Regional Banks,"Cincinnati, Ohio",,1858,16.216019,-3.6,2.722,,,0.0273
+25,195,FRC,First Republic Bank,Financials,Regional Banks,"San Francisco, California",2019-01-02,1985,34.214306,1.66,6.402,,,0.0044
+26,205,BEN,Franklin Resources,Financials,Asset Management & Custody Banks,"San Mateo, California",,1947,22.349165,0.92,1.558,3.822,1.863,0.036
+27,217,GL,Globe Life,Financials,Life & Health Insurance,"McKinney, Texas",1989-04-30,1900,13.638361,1.74,6.83,0.361,0.259,0.0084
+28,219,GS,Goldman Sachs,Financials,Investment Banking & Brokerage,"New York City, New York",2002-07-22,1869,9.721546,0.37,40.258,1.657,1.557,0.020399999
+29,223,HIG,The Hartford,Financials,Property & Casualty Insurance,"Hartford, Connecticut",1957-03-04,1810,15.038395,1.23,4.688,2.06,1.132,0.021300001
+30,240,HBAN,Huntington Bancshares,Financials,Regional Banks,"Columbus, Ohio; Detroit, Michigan",,1866,14.15937,-6.21,1.142,,,0.0375
+31,250,ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,"Atlanta, Georgia",2007-09-26,2000,36.156517,2.79,3.744,1.006,0.024,0.0097
+32,257,IVZ,Invesco,Financials,Asset Management & Custody Banks,"Atlanta, Georgia",2008-08-21,1935,16.049706,0.37,1.529,6.796,1.071,0.0278
+33,267,JPM,JPMorgan Chase,Financials,Diversified Banks,"New York City, New York",1975-06-30,2000 (1799 / 1871),12.9332905,1.39,12.607,,,0.0228
+34,271,KEY,KeyCorp,Financials,Regional Banks,"Cleveland, Ohio",1994-03-01,1825,13.388009,0.73,1.768,,,0.0312
+35,288,LNC,Lincoln National,Financials,Multi-line Insurance,"Radnor, Pennsylvania",1976-06-30,1905,20.484797,0.16,3.486,1.97,0.398,0.0241
+36,293,L,Loews Corporation,Financials,Multi-line Insurance,"New York City, New York",,1959,19.548275,,-0.143,0.488,0.488,0.0045
+37,297,MTB,M&T Bank,Financials,Regional Banks,"Buffalo, New York",2004-02-23,1856,14.055722,0.83,11.342,,,0.028800001
+38,300,MKTX,MarketAxess,Financials,Financial Exchanges & Data,"New York City, New York",2019-07-01,2000,45.85375,9.95,8.0,9.511,7.983,0.0054
+39,302,MMC,Marsh & McLennan,Financials,Insurance Brokers,"New York City, New York",1987-08-31,1905,38.285713,2.11,4.375,1.183,1.1,0.0128
+40,313,MET,MetLife,Financials,Life & Health Insurance,"New York City, New York",,1868,11.031691,1.02,5.68,1.025,0.802,0.0309
+41,326,MCO,Moody's,Financials,Financial Exchanges & Data,"New York City, New York",,1909,36.864502,2.95,10.716,2.309,2.124,0.0069
+42,327,MS,Morgan Stanley,Financials,Investment Banking & Brokerage,"New York City, New York",,1935,12.7769785,2.37,7.645,,,0.0275
+43,330,MSCI,MSCI,Financials,Financial Exchanges & Data,"New York City, New York",2018-04-04,1969,85.89518,3.73,7.747,1.817,1.752,0.0056
+44,331,NDAQ,Nasdaq,Financials,Financial Exchanges & Data,"New York City, New York",2008-10-22,1971,33.93496,1.88,6.15,1.025,0.208,0.011
+45,343,NTRS,Northern Trust,Financials,Asset Management & Custody Banks,"Chicago, Illinois",,1889,21.643785,1.11,5.609,,,0.0254
+46,368,PBCT,People's United Financial,Financials,Thrifts & Mortgage Finance,"Bridgeport, Connecticut",2008-11-13,1842,35.667313,0.82,0.517,,,0.044899996
+47,376,PNC,PNC Financial Services,Financials,Regional Banks,"Pittsburgh, Pennsylvania",1988-04-30,1845,10.502902,-3.63,19.129,,,0.024400001
+48,380,PFG,Principal Financial Group,Financials,Life & Health Insurance,"Des Moines, Iowa",2002-07-22,1879,12.112245,0.65,5.88,2.354,2.076,0.0372
+49,382,PGR,Progressive Corporation,Financials,Property & Casualty Insurance,"Mayfield Village, Ohio",1997-08-04,1937,8.248773,-2.18,10.998,0.369,0.247,0.0044
+50,384,PRU,Prudential Financial,Financials,Life & Health Insurance,"Newark, New Jersey",2002-07-22,1875,16.235697,0.75,6.729,0.959,0.16,0.0414
+51,395,RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,"St. Petersburg, Florida",2017-03-20,1962,13.074663,0.72,7.487,2.951,2.934,0.0121
+52,400,RF,Regions Financial Corporation,Financials,Regional Banks,"Birmingham, Alabama",1998-08-28,1971,15.713346,0.19,1.521,,,0.028800001
+53,409,SPGI,S&P Global,Financials,Financial Exchanges & Data,"New York City, New York",,1917,45.67139,3.66,10.158,2.091,2.001,0.0068
+54,425,STT,State Street Corporation,Financials,Asset Management & Custody Banks,"Boston, Massachusetts",,1792,15.690279,0.83,6.07,,,0.026300002
+55,428,SIVB,SVB Financial,Financials,Regional Banks,"Santa Clara, California",2018-03-19,1983,24.519302,2.32,30.383,,,
+56,429,SYF,Synchrony Financial,Financials,Consumer Finance,"Stamford, Connecticut",2015-11-18,2003,13.589094,0.2,3.558,,,0.0176
+57,433,TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,"Baltimore, Maryland",,1937,17.830334,1.09,11.776,1.897,1.897,0.020499999
+58,449,TRV,The Travelers Companies,Financials,Property & Casualty Insurance,"New York City, New York",2002-08-21,1853,14.105043,1.6,11.062,0.381,0.205,0.0224
+59,451,TFC,Truist Financial,Financials,Regional Banks,"Charlotte, North Carolina",1997-12-04,1872,,1.23,,,,0.0348
+60,457,USB,U.S. Bancorp,Financials,Diversified Banks,"Minneapolis, Minnesota",,1968,15.479018,0.93,3.789,,,0.0295
+61,478,WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,"Greenwich, Connecticut",2019-12-05,1967,20.137728,1.91,4.066,0.449,0.272,0.0073
+62,486,WFC,Wells Fargo,Financials,Diversified Banks,"San Francisco, California",1976-06-30,1852,34.27198,0.09,1.456,,,0.0172
+63,495,WLTW,Willis Towers Watson,Financials,Insurance Brokers,"London, England",2016-01-05,2016,20.88117,2.31,10.94,1.097,0.245,0.0123000005
+64,503,ZION,Zions Bancorp,Financials,Regional Banks,"Salt Lake City, Utah",2001-06-22,1873,13.462086,-0.27,4.919,,,0.0239
